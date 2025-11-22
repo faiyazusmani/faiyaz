@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #000; 
+  }
+
+  .poster {
+    width: 100%;
+    max-width: 900px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.poster img {
+
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-radius: 50%;
+}
+
+.text-area {
+    text-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+    to right,#001f3f,#00aaff,#fff7a1);
+}
+
+.text-area h1 {
+      font-size: 20px;
+      transform: translateY(10px);
+      font-weight: bold;
+    }
+    
+    .text-area p {
+    transform: translateY(-10px);
+    font-size: 14px;
+  }
+
+  /* MOBILE RESPONSIVE */
+  @media (max-width: 480px) {
+    .text-area h1 { font-size: 22px; }
+    .text-area p { font-size: 14px; }
+  } 
