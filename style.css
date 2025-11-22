@@ -42,8 +42,4 @@ body {
     font-size: 14px;
   }
 
-  /* MOBILE RESPONSIVE */
-  @media (max-width: 480px) {
-    .text-area h1 { font-size: 22px; }
-    .text-area p { font-size: 14px; }
-  } 
+ 
